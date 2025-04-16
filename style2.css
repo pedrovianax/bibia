@@ -22,6 +22,7 @@ section > h1 {
 
 section > p {
     margin-top: 10px;
+    font-size: 20px;
 }
 
 aside {
@@ -34,12 +35,12 @@ aside {
 
 aside > ul {
     list-style: none;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(240, 172, 240, 0.63);
     padding: 20px 30px;
     border-radius: 10px;
     display: block;
     text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 5px 1px rgb(0, 0, 0);
 }
 
 aside > ul > li {
@@ -49,7 +50,7 @@ aside > ul > li {
 
 aside > ul > li > a {
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
     font-weight: bold;
 }
@@ -59,7 +60,14 @@ aside > ul > li > a {
     font-size: 1rem;
     text-align: center;
 }
+img{
+    width: 100px;
+    display: block;
+    padding-top: 20px;
+    margin: auto;
 
+
+}
 
     
 
