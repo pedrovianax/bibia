@@ -19,55 +19,47 @@ html, body {
     min-height: 100vh;
 }
 
-
-.texto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-    text-align: center;
-   
-}
-
-.texto > h1 {
-    color: azure;
-    line-height: 1.5;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-    margin: 10px;
-    text-align: center;
- 
-
-}
 .bibia{
     background-color: rgba(240, 172, 240, 0.63);
     text-align: center;
     padding: 10px;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.733);
     color: white;
     box-shadow: 1px 5px 1px rgb(0, 0, 0);
     
 
 
 }
+.texto {
+    
+}
+
+.texto > h1 {
+    color: azure;
+    line-height: 1.5;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.733);
+    text-align: center;
+    padding: 6px;
+
+}
 .box{
     background-color:  rgba(240, 172, 240, 0.63);
-    margin: 50px;
-    border-radius: 13px;
-    padding: 12px;
-    
+    margin: 10px 15px 0px 15px;
+    border-radius: 5px;
 }
 
 .texto > h1 > a {
     color: rgb(245, 17, 17);
     text-decoration: none;
+    
 }
 
 
 section {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgb(0, 0, 0);
 }
 
 section > img {
@@ -80,12 +72,12 @@ section > img {
 
 @media (max-width: 600px) {
     .texto > h1 {
-        font-size: 1.5rem;
-        margin-left: 0;
+        font-size: 1.4rem;
+        
     }
 
     section {
-        margin-top: 20px;
+        margin-top: px;
     }
 }
 
@@ -122,6 +114,8 @@ section > img {
 .ou{
 color: white;
 font-size: 2rem;
+font-weight: bold;
+text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.733);
 
 }
 .box2{
