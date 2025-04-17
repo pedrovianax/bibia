@@ -8,6 +8,16 @@
 @font-face {
     font-family:'baby' ;
     src: url(Baby\ Doll.otf) format(TrueType)
+    
+}
+@font-face {
+    font-family: 'kathen';
+    src: url(kathen.otf) format(opentype)
+    
+}
+@font-face {
+    font-family: 'coffe';
+    src: url(Natural\ Coffee.otf) format(opentype)
 }
 body {
    
@@ -33,20 +43,21 @@ section > h1 {
 }
 
 section > p {
-    margin: 17px;
-    font-size: 27px;
+    margin: 17px 17px 1px 17px;
+    font-size: 35px;
     font-weight: bolder;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.842);
-    color: rgb(0, 0, 0);
-    font-family: 'baby',sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: rgb(245, 110, 0);
+    font-family: 'coffe';
 }
 
 aside {
     display: flex;
     justify-content: center; /* centraliza horizontalmente */
     align-items: center;     /* centraliza verticalmente */
-    padding: 40px 0;
+    padding: 24px 0;
     height: auto;
+    margin: 1px 15px 15px 15px;
 }
 
 aside > ul {
@@ -57,7 +68,7 @@ aside > ul {
     display: block;
     text-align: left;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.774);
-    margin: 15px;
+    margin: 1px 15px 15px 15px;
     font-family: "Poppins",sans-serif;
 
     
