@@ -6,8 +6,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+   
     min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+   
 }
 
 section {
@@ -17,12 +19,17 @@ section {
 }
 
 section > h1 {
-    margin-top: 20px;
+    margin-top: 60px;
+    text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.925);
+    font-weight: bolder;
+    font-size: 35px;
 }
 
 section > p {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: 1px 0px 1px rgb(255, 255, 255);
 }
 
 aside {
@@ -41,24 +48,33 @@ aside > ul {
     display: block;
     text-align: left;
     box-shadow: 1px 5px 1px rgb(0, 0, 0);
+    margin: 15px;
+
+    
 }
 
 aside > ul > li {
     margin-bottom: 10px;
     background-color: transparent; /* transparente porque já tem bg na ul */
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: rgb(240, 32, 32);
+    font-size: 22px;
 }
 
 aside > ul > li > a {
     background-color: transparent;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .texto-abaixo{
-    color: white;
+    color: rgba(255, 255, 255, 0.849);
     margin-top: 20px;
     font-size: 1rem;
     text-align: center;
+   
 }
 img{
     width: 100px;
