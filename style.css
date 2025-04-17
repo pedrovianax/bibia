@@ -31,7 +31,7 @@ html, body {
     padding: 10px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     color: white;
-    box-shadow: 1px 6px 5px rgb(0, 0, 0);
+    box-shadow: inset 4px 4px 25px 4px rgba(228, 2, 228, 0.712);
     margin-bottom: 10px;
     font-family: 'candles';
     font-size: 66px;
@@ -48,14 +48,15 @@ html, body {
     text-align: center;
     padding: 6px;
     font-weight: bold;
-   font-family: "Poppins",sans-serif;
-    font-size: 30px;
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
 
 }
 .box{
     background-color:  #e96fbc;
     margin: 10px 15px 0px 15px;
     border-radius: 5px;
+    box-shadow: inset 4px 4px 25px 4px rgba(228, 2, 228, 0.712);
 }
 
 .texto > h1 > a {
