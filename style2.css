@@ -1,103 +1,101 @@
 * {
     padding: 0;
     margin: 0;
-    
     box-sizing: border-box;
-}
+  }
 
-@font-face {
-    font-family:'baby' ;
-    src: url(Baby\ Doll.otf) format(TrueType)
-    
-}
-@font-face {
+  @font-face {
+    font-family: 'baby';
+    src: url('Baby Doll.otf') format('truetype');
+  }
+
+  @font-face {
     font-family: 'kathen';
-    src: url(kathen.otf) format(opentype)
-    
-}
-@font-face {
-    font-family: 'coffe';
-    src: url(Natural\ Coffee.otf) format(opentype)
-}
-body {
-   
-    min-height: 100vh;
-    
-    background: linear-gradient(135deg, #f8d3d3, #fcb1e0);
-}
+    src: url('kathen.otf') format('opentype');
+  }
 
-section {
+  @font-face {
+    font-family: 'coffe';
+    src: url('Natural Coffee.otf') format('opentype');
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8d3d3, #fcb1e0);
+  }
+
+  
+
+  section {
     display: block;
     text-align: center;
     color: rgb(255, 255, 255);
-}
+    font-family: 'baby', sans-serif;
+  }
 
-section > h1 {
-    margin-top: 60px;
+  section > h1 {
+    margin-top: 30px;
     text-shadow: 1px 2px 2px rgb(0, 0, 0);
     font-weight: bolder;
     font-size: 60px;
-    margin-top: 30px;
-    font-family: 'baby',sans-serif;
-    
-}
+  }
 
-section > p {
-    margin: 17px 17px 1px 17px;
+  section > p {
+    margin: 17px;
     font-size: 35px;
-    font-weight: bolder;
+    font-weight: 100;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     color: rgb(245, 110, 0);
     font-family: 'coffe';
-}
+  }
 
-aside {
+  aside {
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
-    align-items: center;     /* centraliza verticalmente */
-    padding: 24px 0;
-    height: auto;
-    margin: 1px 15px 15px 15px;
-}
+    justify-content: center;
+    align-items: center;
+    padding: 24px 10px 5px 10px;
+    margin: 1px 15px;
+  }
 
-aside > ul {
+  aside > ul {
     list-style: none;
     background-color: rgba(0, 0, 0, 0.904);
-    padding: 20px 30px;
+    padding: 20px 30px 10px 30px;
     border-radius: 10px;
-    display: block;
     text-align: left;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.774);
-    margin: 1px 15px 15px 15px;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
 
-    
-}
-
-aside > ul > li {
+  aside > ul > li {
     margin-bottom: 10px;
-    background-color: transparent; /* transparente porque já tem bg na ul */
     font-weight: bold;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     color: rgb(240, 32, 32);
     font-size: 22px;
-}
+  }
 
-aside > ul > li > a {
-    background-color: transparent;
+  aside > ul > li > a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-}
-.texto-abaixo{
+  }
+
+  .texto-abaixo {
     color: rgba(255, 255, 255, 0.849);
     margin-top: 20px;
     font-size: 1rem;
     text-align: center;
-   
-}
-img{
+  }
+
+  img {
     width: 100px;
     display: block;
     padding-top: 20px;
@@ -105,8 +103,28 @@ img{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.774);
+    margin-bottom: 100px;
+    margin-top: ;
+  }
 
-}
+  p {
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color: rgb(245, 110, 0);
+    font-family: 'coffe';
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
 
+  footer {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.438);
     
-
+  }
+  footer >h2 {
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bolder;
+  }
