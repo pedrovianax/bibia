@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: rgb(22, 22, 22);
+    
     box-sizing: border-box;
 }
 
@@ -9,7 +9,7 @@ body {
    
     min-height: 100vh;
     font-family: "Poppins",sans-serif;
-   
+    background: linear-gradient(135deg, #f8d3d3, #fcb1e0);
 }
 
 section {
@@ -20,7 +20,7 @@ section {
 
 section > h1 {
     margin-top: 60px;
-    text-shadow: 1px 0px 0px rgba(255, 255, 255, 0.925);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.925);
     font-weight: bolder;
     font-size: 35px;
 }
@@ -28,8 +28,9 @@ section > h1 {
 section > p {
     margin-top: 10px;
     font-size: 25px;
-    font-weight: 100;
-    text-shadow: 1px 0px 1px rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 aside {
@@ -42,12 +43,12 @@ aside {
 
 aside > ul {
     list-style: none;
-    background-color: rgba(240, 172, 240, 0.63);
+    background-color: rgba(0, 0, 0, 0.904);
     padding: 20px 30px;
     border-radius: 10px;
     display: block;
     text-align: left;
-    box-shadow: 1px 5px 1px rgb(0, 0, 0);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.774);
     margin: 15px;
 
     
@@ -81,7 +82,9 @@ img{
     display: block;
     padding-top: 20px;
     margin: auto;
-
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.774);
 
 }
 
