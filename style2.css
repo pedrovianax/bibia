@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-attachment: ;
   }
 
   @font-face {
@@ -21,6 +22,8 @@
 
   html, body {
     height: 100%;
+   
+    background-attachment: fixed;
   }
 
   body {
@@ -28,6 +31,7 @@
     flex-direction: column;
     min-height: 100vh;
     background: linear-gradient(135deg, #f8d3d3, #fcb1e0);
+    background-attachment: fixed;
   }
 
   
@@ -113,8 +117,9 @@
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     color: rgb(245, 110, 0);
     font-family: 'coffe';
-    font-size: 30px;
-    margin-bottom: 6px;
+    font-size: 27px;
+    margin: 6px 15px 10px 15px;
+    
   }
 
   footer {
