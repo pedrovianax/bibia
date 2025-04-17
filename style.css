@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'sunday';
+    src: url(Sunday\ Best\ ttf.ttf) format(truetype)
+}
+@font-face {
+    font-family: 'candles';
+    src: url(Candles\ in\ Easter.ttf) format(truetype)
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -6,12 +16,8 @@
 }
 
 
-
 body {
 
-font-family: "Poppins",sans-serif;
-font-weight: 100;
-font-style: normal;
       
 }
 
@@ -20,33 +26,34 @@ html, body {
 }
 
 .bibia{
-    background-color: rgba(240, 172, 240, 0.63);
+    background-color: #e96fbc;
     text-align: center;
     padding: 10px;
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.733);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
     color: white;
     box-shadow: 1px 6px 5px rgb(0, 0, 0);
     margin-bottom: 10px;
-    
-
+    font-family: 'candles';
+    font-size: 66px;
 
 }
 .texto {
     
 }
 
-.texto > h1 {
+.texto > h2 {
     color: azure;
     line-height: 1.5;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     text-align: center;
     padding: 6px;
-    font-weight: 300;
-
+    font-weight: bold;
+   font-family: "Poppins",sans-serif;
+    font-size: 30px;
 
 }
 .box{
-    background-color:  rgba(240, 172, 240, 0.63);
+    background-color:  #e96fbc;
     margin: 10px 15px 0px 15px;
     border-radius: 5px;
 }
@@ -120,6 +127,7 @@ color: white;
 font-size: 2rem;
 font-weight: bold;
 text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.733);
+font-family: "Poppins",sans-serif;
 
 }
 .box2{
